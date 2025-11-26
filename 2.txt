@@ -1,0 +1,116 @@
+AIM
+
+To prepare a detailed Network Security Audit Checklist for two IT companies by creating relevant audit questionnaires for the 10 essential steps of a network audit, helping organizations move from vulnerable to secure.
+
+ALGORITHM
+
+Identify and define the audit scope.
+
+List all potential threats for both companies.
+
+Review internal security policies.
+
+Inspect sensitive data storage and access control.
+
+Review server security and configuration.
+
+Examine training logs and logging mechanisms.
+
+Verify secure internet access policies.
+
+Conduct penetration testing and vulnerability assessments.
+
+Share audit findings with relevant teams.
+
+Establish frequency of regular network audits.
+
+PROCEDURE
+
+Select two IT companies (imaginary or real).
+
+For each of the 10 steps, prepare suitable audit questions.
+
+Create a checklist format with columns for Company A & B.
+
+Fill responses as “Yes/No”.
+
+Add remarks where required.
+
+Compile the entire checklist and present it for evaluation.
+
+NETWORK SECURITY AUDIT CHECKLIST
+(Required Format)
+Sr. No.	Audit Questionnaire	Company A (Yes/No)	Company B (Yes/No)	Remarks
+STEP 1 — DEFINE THE SCOPE OF THE AUDIT
+Sr.No.	Audit Questionnaire	A	B	Remarks
+1	Are security cameras installed to monitor data center?	Yes	No	Check recording period & retention
+2	Are all network devices included in audit scope?	Yes	Yes	Routers, switches, firewalls
+3	Is OS and application list documented?	No	Yes	Needs update
+4	Is access layer (LAN/WAN/WiFi) included in scope?	Yes	Yes	-
+5	Is remote access included in audit scope?	No	Yes	VPN details required
+STEP 2 — DETERMINE THREATS
+Sr.No.	Audit Questionnaire	A	B	Remarks
+1	Has malware/virus threat assessment been performed?	Yes	Yes	Anti-virus logs reviewed
+2	Are DDoS prevention mechanisms available?	No	Yes	B uses Cloudflare
+3	Is BYOD risk assessment documented?	No	No	Needs policy
+4	Is phishing threat assessment performed?	Yes	No	Training pending
+5	Are at-home devices risk assessed?	No	Yes	WFH allowed for B
+STEP 3 — REVIEW INTERNAL POLICIES
+Sr.No.	Audit Questionnaire	A	B	Remarks
+1	Is there an updated network security policy?	No	Yes	A needs update
+2	Is privacy policy documented?	Yes	Yes	-
+3	Is remote access policy available?	No	Yes	MFA implemented in B
+4	Data backup policy exists?	Yes	No	B backup unmanaged
+5	Are all policies reviewed annually?	No	No	Must update
+STEP 4 — SAFETY OF SENSITIVE DATA
+Sr.No.	Audit Questionnaire	A	B	Remarks
+1	Is sensitive data access restricted?	Yes	Yes	-
+2	Sensitive data stored centrally?	No	Yes	A stores on laptops → RISK
+3	Is encryption enabled for sensitive data?	No	Yes	AES-256
+4	Is there separate storage for confidential data?	Yes	No	B stores on shared server
+5	Is data loss prevention (DLP) implemented?	No	No	Needed for both
+STEP 5 — SERVER INSPECTION
+Sr.No.	Audit Questionnaire	A	B	Remarks
+1	Server configurations reviewed recently?	Yes	No	B outdated
+2	DNS/WINS servers verified?	No	Yes	-
+3	Static IP assignments documented?	Yes	Yes	-
+4	Backup network services working?	No	Yes	A backup failed
+5	Are all servers updated and patched?	No	Yes	Critical risk in A
+STEP 6 — TRAINING LOGS & LOG MONITORING
+Sr.No.	Audit Questionnaire	A	B	Remarks
+1	Is cybersecurity training mandatory?	No	Yes	-
+2	Are logs monitored daily using automation?	Yes	No	B uses manual logs
+3	Are inactive devices removed regularly?	No	Yes	-
+4	Is firewall log monitoring enabled?	Yes	Yes	-
+5	Are patch updates automatically logged?	No	Yes	A uses manual updates
+STEP 7 — SAFE INTERNET ACCESS
+Sr.No.	Audit Questionnaire	A	B	Remarks
+1	Is internet traffic encrypted?	Yes	Yes	TLS enabled
+2	Malware scanning enabled?	No	Yes	-
+3	Port blocking configured?	Yes	No	B allows open ports
+4	Bandwidth restrictions applied?	No	No	Both need control
+5	WiFi network secured with WPA3?	No	Yes	A uses WPA2
+STEP 8 — PENETRATION TESTING
+Sr.No.	Audit Questionnaire	A	B	Remarks
+1	Static testing performed yearly?	No	Yes	-
+2	Dynamic testing performed?	No	No	Critical
+3	Vulnerability scanning tools used?	Yes	Yes	Nessus
+4	Unauthorized access points removed?	No	Yes	A found rogue AP
+5	Pen test reports documented?	No	Yes	-
+STEP 9 — SHARING AUDIT RESULTS
+Sr.No.	Audit Questionnaire	A	B	Remarks
+1	Is audit shared with IT team?	No	Yes	A lacks transparency
+2	Is corrective action plan documented?	No	No	Needed
+3	Are employees informed of updates?	Yes	Yes	-
+4	Meetings conducted after audit?	No	Yes	-
+5	Is management approval taken?	No	Yes	-
+STEP 10 — REGULAR NETWORK SECURITY AUDITS
+Sr.No.	Audit Questionnaire	A	B	Remarks
+1	Are audits done twice a year?	No	Yes	-
+2	Are audit records maintained?	Yes	Yes	-
+3	Does the company review past audits?	No	No	-
+4	Is continuous monitoring applied?	No	Yes	SOC implemented
+5	Is audit part of maintenance routine?	No	Yes	A needs improvement
+RESULT
+
+A comprehensive Network Security Audit Checklist was successfully prepared for two IT companies. The audit identified strengths, weaknesses, inconsistencies, policy gaps, and missing security controls across 10 major audit areas. This checklist can now be used to enhance network security and reduce cyber risks.
